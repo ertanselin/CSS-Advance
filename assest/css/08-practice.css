@@ -1,0 +1,33 @@
+.menu:hover ul {
+display: block
+}
+
+.menu ul{
+    display:none;
+}
+
+.menu button {
+    display:block
+}
+
+.menu {
+    display: inline-block;
+}
+
+
+
+h1:hover em {
+    color:red
+}
+
+
+
+
+
+
+
+
+
+
+
+

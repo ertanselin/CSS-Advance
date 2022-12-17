@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row; /* default değeri row'dur. */
+            justify-content: space-evenly;
+            align-items: stretch;
+            height:100vh;
+        }
+
+        .container div {
+            padding: 3rem;
+        }
+
+        .container div:nth-child(1) {
+            background-color: aqua;
+        }
+
+        .container div:nth-child(2) {
+            background-color: rgb(255, 0, 191);
+        }
+
+        .container div:nth-child(3) {
+            background-color: rgb(145, 255, 0);
+        }
+
+        .container div:nth-child(4) {
+            background-color: rgb(0, 255, 242);
+        }
+
+        .container div:nth-child(5) {
+            background-color: rgb(255, 72, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+
+
+
+</body>
+
+</html>
